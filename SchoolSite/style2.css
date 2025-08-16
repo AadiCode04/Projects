@@ -1,0 +1,66 @@
+
+.admission-bg {
+    background: url('admissionimg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.admission-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.admission-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.admission-form label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.admission-form input, 
+.admission-form select, 
+.admission-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.admission-form button {
+    background: #2563eb;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.admission-form button:hover {
+    background: #1e4bbd;
+}
+
+.back-home {
+    display: block;
+    margin-top: 15px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-home:hover {
+    text-decoration: underline;
+}
