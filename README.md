@@ -9,6 +9,5 @@ MINI - PROJECT
 --> SchoolSite (HTML , CSS)                                          
 --> Picture Bar (HTML , CSS )                                        
 --> BOOTSTRAP-Project (page using bootstrap)                                      
---> SoundWave (HTML , CSS , JS ) 
---> Todo-List ( using React )
-
+--> SoundWave (HTML , CSS , JS )
+--> Todo-List(using React)
