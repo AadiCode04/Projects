@@ -1,5 +1,4 @@
-MINI - PROJECT 
-
+PROJECTS 
 *** this are my mini project which I created at a time of Learning Phase  ***
 
 --> MINI-Blog ( using backend APIs :- NODE JS , EXPRESS , REST , EJS)                 
