@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundWave - Premium Audio Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars-bg"></div>
+    
+    <header>
+        <div class="nav-container">
+            <div class="logo">SoundWave</div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="carousel">
+        <div class="carousel-container">
+            <div class="product-list">
+                
+                <div class="product-item">
+                    <div class="product-content">
+                        <span class="product-badge">Premium Series</span>
+                        <h1 class="product-title">AuraFlow</h1>
+                        <p class="product-subtitle">Luxe Earbuds</p>
+                        <p class="product-description">Experience music in style. These elegant, silver earbuds offer a seamless blend of sophisticated design and premium sound quality with crystal-clear audio.</p>
+                        <div class="product-price">$199</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary" onclick="showDetails(0)">Explore Features</button>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=400&fit=crop&crop=center" alt="AuraFlow Earbuds" />
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-content">
+                        <span class="product-badge">Dynamic Series</span>
+                        <h1 class="product-title">VividBeats</h1>
+                        <p class="product-subtitle">Pro Earphones</p>
+                        <p class="product-description">Dive into your music with vibrant energy. These purple powerhouses deliver rich, dynamic audio with deep bass and crystal-clear highs for an immersive experience.</p>
+                        <div class="product-price">$149</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary" onclick="showDetails(1)">Explore Features</button>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400&h=400&fit=crop&crop=center" alt="VividBeats Pro" />
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-content">
+                        <span class="product-badge">Smart Series</span>
+                        <h1 class="product-title">Orbis Touch</h1>
+                        <p class="product-subtitle">Future Audio</p>
+                        <p class="product-description">Step into tomorrow with intuitive touch controls and futuristic design. Advanced noise cancellation meets seamless connectivity for the ultimate smart audio experience.</p>
+                        <div class="product-price">$299</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary" onclick="showDetails(2)">Explore Features</button>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-image">
+                        <img src="https://royalcomputersolution.com/wp-content/uploads/2023/03/orbit-1.jpg" alt="Orbis Touch" />
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-content">
+                        <span class="product-badge">Urban Series</span>
+                        <h1 class="product-title">ApexCore</h1>
+                        <p class="product-subtitle">Urban Warrior</p>
+                        <p class="product-description">Built for the urban jungle. Rugged design meets powerful performance with sweat-resistant coating and unbreakable sound quality for your active lifestyle.</p>
+                        <div class="product-price">$179</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary" onclick="showDetails(3)">Explore Features</button>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=400&fit=crop&crop=center" alt="ApexCore Urban" />
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-content">
+                        <span class="product-badge">Audiophile Series</span>
+                        <h1 class="product-title">AcousticPro</h1>
+                        <p class="product-subtitle">Studio Grade</p>
+                        <p class="product-description">Hear every note with studio-grade precision. Professional-level drivers and acoustic engineering deliver reference-quality sound for true audio enthusiasts.</p>
+                        <div class="product-price">$399</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary" onclick="showDetails(4)">Explore Features</button>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=400&h=400&fit=crop&crop=center" alt="AcousticPro Studio" />
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-content">
+                        <span class="product-badge">Comfort Series</span>
+                        <h1 class="product-title">ZenithFlow</h1>
+                        <p class="product-subtitle">All-Day Comfort</p>
+                        <p class="product-description">Designed for extended listening sessions. Ergonomic perfection meets seamless audio quality with memory foam tips and feather-light construction.</p>
+                        <div class="product-price">$129</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary" onclick="showDetails(5)">Explore Features</button>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop&crop=center" alt="ZenithFlow Comfort" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="controls">
+                <button class="control-btn" id="prevBtn">←</button>
+                <div class="indicators">
+                    <div class="indicator active" onclick="goToSlide(0)"></div>
+                    <div class="indicator" onclick="goToSlide(1)"></div>
+                    <div class="indicator" onclick="goToSlide(2)"></div>
+                    <div class="indicator" onclick="goToSlide(3)"></div>
+                    <div class="indicator" onclick="goToSlide(4)"></div>
+                    <div class="indicator" onclick="goToSlide(5)"></div>
+                </div>
+                <button class="control-btn" id="nextBtn">→</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="detail-modal" id="detailModal">
+        <div class="detail-content">
+            <button class="close-btn" onclick="closeDetails()">×</button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
